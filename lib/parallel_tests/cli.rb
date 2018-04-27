@@ -315,6 +315,7 @@ module ParallelTests
     end
 
     def first_is_1?
+      return true
       val = ENV["PARALLEL_TEST_FIRST_IS_1"]
       ['1', 'true'].include?(val)
     end
